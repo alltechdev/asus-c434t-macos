@@ -1,0 +1,19 @@
+# Downloaded OpenCore/kext releases (tools/fetch_deps.sh)
+deps/
+# Builds with your own SMBIOS (tools/build_efi.py --smbios) -- never commit these
+out/
+smbios.json
+*.smbios.json
+# Wi-Fi credentials for itlwm (tools/build_efi.py --wifi)
+wifi.json
+*.wifi.json
+# Kext build toolchain and output
+toolchain
+kext/build/
+# Recovery channel runtime data
+tools/recovery-channel/cmds/
+tools/recovery-channel/files/
+tools/recovery-channel/up/
+__pycache__/
+kext/C434TAudio/fw_skl.h
+plugin/build/
